@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Order!</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          rel="stylesheet" >
+</head>
+<body>
+<h1>Order a Pet</h1>
+<div class="container">
+    <form action="order2" method="post" class="form-horizontal">
+
+        <!-- get food -->
+        <div class="form-group">
+            <label for="pet" class="col-sm-2 control-label">What kind of pet would you like to order</label>
+
+            <div class="col-sm-4">
+                <input class="form-control" type="text" name="pet" id="pet" >
+            </div>
+
+        </div>
+        <!-- get meal -->
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Select a color</label>
+            <div class="form-group">
+                <label for="color">Select a Color</label>
+                <select class="form-control" id="color">
+                    <option>Brown</option>
+                    <option>Purple</option>
+                    <option>Black</option>
+                </select>
+            </div>
+        </div>
+        <div class="col-xs-3 ">
+            <input class="form-control btn btn-default"
+                   type="submit" value="Next">
+        </div>
+    </form>
+</div>
+
+</body>
+</html>
